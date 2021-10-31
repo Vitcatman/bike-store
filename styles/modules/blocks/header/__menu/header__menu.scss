@@ -1,0 +1,14 @@
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 120px;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width:630px) {
+  .header__menu {
+  display: none;
+  }
+}

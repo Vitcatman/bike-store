@@ -1,0 +1,14 @@
+@mixin font ($size, $color, $weight, $l-h) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  line-height: $l-h;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+}
+
+@mixin flex ($dir,$justCont) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justCont;
+}

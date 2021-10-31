@@ -1,0 +1,13 @@
+.theme-selector {
+  @include flex (row, space-between);
+  align-self:flex-end;
+  width: 140px;
+  height: 40px;
+  margin: 0 120px 70px 0;
+}
+
+@media screen and (max-width:630px) {
+  .theme-selector {
+  display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.bike-models__image-block {
+  @include flex (column, space-between);
+  align-items: left;
+  margin-top: 53px;
+}
+
+@media screen and (max-width:630px) {
+  .bike-models__image-block {
+    margin-top: 0;
+  }
+}

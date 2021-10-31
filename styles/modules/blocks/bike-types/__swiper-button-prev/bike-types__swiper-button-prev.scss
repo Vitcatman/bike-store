@@ -1,0 +1,28 @@
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  top: 0;
+  right: 52px;
+  left: auto;
+}
+
+@media screen and (max-width:630px) {
+  .swiper-button-prev {
+    right: 150px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .swiper-button-prev {
+    right: 100px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .swiper-button-prev {
+    right: 25px;
+  }
+}
+

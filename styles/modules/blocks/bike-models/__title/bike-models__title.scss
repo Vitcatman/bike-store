@@ -1,0 +1,11 @@
+.bike-models__title {
+  @include font(55px, $textBolder, 700, 60px);
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+@media screen and (max-width:720px) {
+  .bike-models__title {
+    @include font(32px, $textBolder, 700, 40px);
+  }
+}

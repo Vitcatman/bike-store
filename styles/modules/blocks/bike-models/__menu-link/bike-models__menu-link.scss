@@ -1,0 +1,14 @@
+.bike-models__menu-link {
+  text-decoration: none;
+  @include font (18px, $textLighter, 400, 28px);
+  margin-left: 40px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media screen and (max-width:630px) {
+  .bike-models__menu-link {
+    @include font (11px, $textBolder, 600, 14px);
+    margin-left: 0;
+  }
+}

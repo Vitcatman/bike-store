@@ -1,0 +1,27 @@
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next {
+  top: 0;
+  right: 20px;
+  left: auto;
+}
+
+@media screen and (max-width:630px) {
+  .swiper-button-next {
+    right: 125px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .swiper-button-next {
+    right: 75px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .swiper-button-next {
+    right: 0;
+  }
+}

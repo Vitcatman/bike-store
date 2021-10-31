@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  min-height: 424px;
+  background: #E5E5E5;
+  @include flex (row, space-between);
+}
+
+@media screen and (max-width:630px) {
+  .footer{
+    min-height: 358px;
+  }
+}
+

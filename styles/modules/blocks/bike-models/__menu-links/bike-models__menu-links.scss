@@ -1,0 +1,17 @@
+.bike-models__menu-links {
+  @include flex(row, space-between);
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media screen and (max-width:630px) {
+  .bike-models__menu-links {
+    @include flex(column, space-between);
+    width: 140px;
+    align-items: flex-start;
+    display: none;
+  }
+}

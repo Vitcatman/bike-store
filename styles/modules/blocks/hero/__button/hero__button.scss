@@ -1,0 +1,35 @@
+.hero__button {
+  grid-area: btn;
+  width: 180px;
+  height: 50px;
+  display: inline-block;
+    background-color: #24B47E;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 48px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:820px) {
+  .hero__button {
+    width: 145px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .hero__button {
+    width: 284px;
+    height: 46px;
+    font-size: 13px;
+    line-height: 44px;
+  }
+}
+

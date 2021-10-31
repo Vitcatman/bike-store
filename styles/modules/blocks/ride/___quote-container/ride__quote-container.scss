@@ -1,0 +1,18 @@
+.ride__quote-container {
+max-width: 470px;
+@include flex(column,space-between);
+margin: 0 0 0 80px;
+}
+
+@media screen and (max-width:980px) {
+  .ride__quote-container {
+    margin: 0 0 0 40px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .ride__quote-container {
+    margin: 0 0 0 0;
+  }
+}
+

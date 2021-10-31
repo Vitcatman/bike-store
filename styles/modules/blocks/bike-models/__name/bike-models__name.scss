@@ -1,0 +1,12 @@
+.bike-models__name {
+  @include font (18px, $textBolder, 600, 22px);
+}
+
+@media screen and (max-width:720px) {
+  .bike-models__name {
+    @include font(14px, $textBolder, 600, 18px);
+    margin: -20px 0 16px;
+    text-align: center;
+    z-index: 300;
+  }
+}

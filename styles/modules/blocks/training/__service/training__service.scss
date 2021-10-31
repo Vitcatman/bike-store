@@ -1,0 +1,11 @@
+.training__service {
+  @include font (18px, $textBolder, 600, 28px);
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+@media screen and (max-width:915px) {
+  .training__service {
+    @include font (14px, $textBolder, 600, 22px);
+  }
+}

@@ -1,0 +1,21 @@
+.bike-models__image {
+  width: 89%;
+  object-fit: contain;
+  margin: 86px 20px 20px;
+  padding: 0;
+  filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.06));
+}
+
+@media screen and (max-width:720px) {
+  .bike-models__image {
+    margin: 20px 20px 20px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .bike-models__image {
+    width: 254px;
+    height: 254px;
+    margin: 35px 15px 2px;
+  }
+}

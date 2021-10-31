@@ -1,0 +1,24 @@
+.bike-models__title-container {
+  width: 100%;
+ @include flex (row, space-between);
+ align-items: center;
+}
+
+@media screen and (max-width:630px) {
+  .bike-models__title-container {
+    @include flex(column, space-between);
+    width: 284px;
+    align-items: flex-start;
+  }
+  .bike-models__title-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 284px;
+    height: 0px;
+    border: 1px solid #E3E3E3;
+    right: 0;
+    margin:  -40px auto 0;
+    display: block;
+  }
+}

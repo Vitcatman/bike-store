@@ -1,0 +1,10 @@
+.bike-types__slide {
+  @include flex(column, space-between);
+  align-items: flex-start;
+}
+
+@media screen and (max-width:630px) {
+  .bike-types__slide {
+    align-items: center;
+  }
+}

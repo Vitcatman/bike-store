@@ -1,0 +1,45 @@
+.hero {
+  max-width: 100%;
+  margin-top: 20px;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content min-content min-content 1fr;
+    gap: 50px 17%;
+    grid-template-areas:
+        "title img"
+        "descr img"
+        "btn img"
+        "bname img"
+        ". img";
+}
+
+@media screen and (max-width:1360px) {
+  .hero {
+    gap: 50px 5%;
+  }
+}
+
+
+@media screen and (max-width:890px) {
+  .hero {
+    gap: 30px 1%;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .hero {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content 1fr;
+    gap: 40px;
+    margin: 0;
+    padding:0;
+
+    grid-template-areas:
+        "title"
+        "img"
+        "descr"
+        "btn"
+        "bname";
+  }
+}
