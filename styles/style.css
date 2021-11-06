@@ -173,7 +173,7 @@
 }
 
 .header__menu_active {
-  top: 0;
+  top: 50px;
 }
 
 .header__theme-switcher {
@@ -1886,7 +1886,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    bottom: 100px;
+    bottom: 180px;
   }
 }
 .footer__logo {
