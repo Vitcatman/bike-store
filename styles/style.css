@@ -1115,13 +1115,13 @@
   width: 50px;
   height: 50px;
   margin-right: 16px;
-  background-image: url("../../images/button-left.svg");
+  background-image: url("../../../images/button-left.svg");
   background-repeat: no-repeat;
   display: block;
 }
 
 .bike-types__button-left_size_desktop.theme-selector_black {
-  background-image: url("../../images/button-left-black.svg");
+  background-image: url("../../../images/button-left-black.svg");
 }
 
 .bike-types__button-left_size_mobile {
@@ -1133,26 +1133,26 @@
     display: block;
     width: 24px;
     height: 24px;
-    background: url("../../images/button-left-mob2.svg");
+    background: url("../../../images/button-left-mob2.svg");
     background-repeat: no-repeat;
     object-fit: contain;
   }
 
   .bike-types__button-left_size_mobile.theme-selector_black {
-    background: url("../../images/button-left-black-mob.svg");
+    background: url("../../../images/button-left-black-mob.svg");
   }
 }
 .bike-types__button-right_size_desktop {
   object-fit: cover;
   width: 50px;
   height: 50px;
-  background-image: url("../../images/button-right.svg");
+  background-image: url("../../../images/button-right.svg");
   background-repeat: no-repeat;
   display: block;
 }
 
 .bike-types__button-right_size_desktop.theme-selector_black {
-  background-image: url("../../images/button-right-black.svg");
+  background-image: url("../../../images/button-right-black.svg");
 }
 
 .bike-types__button-right_size_mobile {
@@ -1164,13 +1164,13 @@
     display: block;
     width: 24px;
     height: 24px;
-    background: url("../../images/button-right-mob.svg");
+    background: url("../../../images/button-right-mob.svg");
     background-repeat: no-repeat;
     object-fit: contain;
   }
 
   .bike-types__button-right_size_mobile.theme-selector_black {
-    background: url("../../images/button-right-black-mob.svg");
+    background: url("../../../images/button-right-black-mob.svg");
   }
 }
 .bike-types__button-right {
@@ -1898,7 +1898,7 @@
     display: block;
     width: 38px;
     height: 38px;
-    background-image: url("../../images/logo__color.svg");
+    background-image: url("../../../images/logo__color.svg");
     object-fit: cover;
     background-repeat: no-repeat;
     position: absolute;
