@@ -20,6 +20,6 @@
 
 ## Ссылки
 
-[Project on GitHub](https://vitcatman.github.io/bike-store/)
+[Project on GitHub](https://vitcatman.github.io/bike-store/){target="_blank"}
 
-[Курс Yandex Praktikum](https://praktikum.yandex.ru/profile/web-plus/)
+[Курс Yandex Praktikum](https://praktikum.yandex.ru/profile/web-plus/){target="_blank"}
