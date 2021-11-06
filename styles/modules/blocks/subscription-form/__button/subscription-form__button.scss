@@ -1,0 +1,14 @@
+.subscription-form__button {
+  border: none;
+  background-color: $backgroundFooter;
+  color: $textBolder;
+  @include font(13px, 500, 28px);
+  margin-right: 11px;
+  opacity: 0;
+  cursor: pointer;
+ }
+
+ .subscription-form__button.theme-selector_black {
+  color: $secondaryTextBolder;
+  background-color: $backgroungFooterSecondary;
+}

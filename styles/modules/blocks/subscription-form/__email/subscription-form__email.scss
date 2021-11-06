@@ -1,0 +1,22 @@
+.subscription-form__email {
+ border: none;
+ background-color: $backgroundFooter;
+ color: $textLighter;
+ @include font(13px, 500, 28px);
+ margin-left: 20px;
+ outline:none;
+ cursor: pointer;
+}
+
+.subscription-form__email.theme-selector_black {
+  color: $secondaryTextBolder;
+  background-color: $backgroungFooterSecondary;
+}
+
+.subscription-form__email:hover::-webkit-input-placeholder {
+  color: $textBolder;
+}
+
+.theme-selector_black.subscription-form__email:hover::-webkit-input-placeholder {
+  color: $secondaryTextBolder;
+}

@@ -3,4 +3,9 @@
   min-width: $mobile;
   background-color: $backgroundPrimary;
   margin: auto;
+  position: relative;
+}
+
+.page.theme-selector_black {
+  background-color: $backgroundSecondary;
 }

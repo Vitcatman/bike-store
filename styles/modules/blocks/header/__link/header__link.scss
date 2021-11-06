@@ -1,5 +1,24 @@
 .header__link {
  margin-left: 34px;
  text-decoration: none;
- @include font (14px, $textBolder, 500, 18px);
+ color: $textBolder;
+ @include font (14px, 500, 18px);
+  text-align: center;
+  transition: opacity 1s ease;
 }
+
+.header__link:hover {
+  opacity: 0.75;
+}
+
+.header__link.theme-selector_black {
+  color: $secondaryTextBolder;
+}
+
+@media screen and (max-width:630px) {
+  .header__link {
+    margin-left: 0px;
+    @include font (18px, 500, 18px);
+  }
+}
+

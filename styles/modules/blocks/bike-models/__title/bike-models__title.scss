@@ -1,11 +1,16 @@
 .bike-models__title {
-  @include font(55px, $textBolder, 700, 60px);
+  @include font(55px, 700, 60px);
+  color: $textBolder;
   letter-spacing: -0.5px;
   margin: 0;
 }
 
+.bike-models__title.theme-selector_black {
+  color: $secondaryTextBolder;
+}
+
 @media screen and (max-width:720px) {
   .bike-models__title {
-    @include font(32px, $textBolder, 700, 40px);
+    @include font(32px, 700, 40px);
   }
 }

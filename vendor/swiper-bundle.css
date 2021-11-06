@@ -168,6 +168,11 @@
   height: 1px;
   width: var(--swiper-virtual-size);
 }
+
+.swiper .swiper-pagination-bullet {
+  margin-right: 2px;
+}
+
 .swiper-virtual.swiper-css-mode.swiper-vertical .swiper-wrapper::after {
   width: 1px;
   height: var(--swiper-virtual-size);
@@ -338,7 +343,7 @@ button.swiper-pagination-bullet {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 2px);
 }
 .swiper-horizontal
   > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,

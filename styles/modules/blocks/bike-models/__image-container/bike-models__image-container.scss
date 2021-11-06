@@ -1,4 +1,16 @@
 .bike-models__image-container {
-  max-width: 380px;
-  max-height: 446px;
+  width: 95%;
+  box-shadow: $shadowMain;
+  margin-top: 120px;
+  background: #F4F4F4;
+  border-radius: 20px;
 }
+
+@media screen and (max-width:630px) {
+  .bike-models__image-container {
+    margin-top: 0;
+    width: 284px;
+  }
+}
+
+

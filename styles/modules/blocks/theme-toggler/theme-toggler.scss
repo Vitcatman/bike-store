@@ -1,0 +1,7 @@
+.theme-toggler {
+  @include flex (row, space-between);
+  align-self:flex-end;
+  width: 140px;
+  height: 40px;
+}
+

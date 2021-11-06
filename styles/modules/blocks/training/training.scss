@@ -1,6 +1,6 @@
 .training {
   max-width: 100%;
-  padding: 150px 120px 120px 0;
+  padding: 130px 120px 120px 0;
   display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content 1fr;
@@ -14,7 +14,7 @@
 @media screen and (max-width:1220px) {
   .training {
     gap: 50px 80px;
-    padding: 100px 60px 90px 0;
+    padding: 80px 60px 90px 0;
   }
 }
 
@@ -27,7 +27,7 @@
 @media screen and (max-width:820px) {
   .training {
     gap: 35px 40px;
-    padding: 80px 30px 60px 0;
+    padding: 60px 30px 60px 0;
   }
 }
 
@@ -44,7 +44,7 @@
     grid-template-rows: min-content min-content min-content;
     gap: 40px;
     margin: 0;
-    padding: 120px 0 120px;
+    padding: 110px 0 60px;
 
     grid-template-areas:
         "title"

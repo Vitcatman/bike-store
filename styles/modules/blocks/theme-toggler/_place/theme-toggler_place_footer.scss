@@ -1,0 +1,15 @@
+.theme-toggler_place_footer {
+  margin: 0 120px 60px 0;
+}
+
+@media screen and (max-width:720px) {
+  .theme-toggler_place_footer {
+  margin: 0 30px 60px 0;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .theme-toggler_place_footer {
+  display: none;
+  }
+}

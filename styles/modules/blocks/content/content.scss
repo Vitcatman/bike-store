@@ -1,5 +1,7 @@
 .content {
   padding-left: 120px;
+  padding-top: 74px;
+  z-index: 2;
 }
 
 @media screen and (max-width:1215px) {
@@ -15,6 +17,6 @@
 
 @media screen and (max-width:630px) {
   .content {
-    padding: 0 18px 0px;
+    padding: 74px 18px 0px;
   }
 }

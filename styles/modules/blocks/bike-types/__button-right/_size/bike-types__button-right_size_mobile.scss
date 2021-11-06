@@ -1,0 +1,16 @@
+.bike-types__button-right_size_mobile {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .bike-types__button-right_size_mobile {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("../../images/button-right-mob.svg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+  .bike-types__button-right_size_mobile.theme-selector_black {
+    background: url("../../images/button-right-black-mob.svg");
+  }
+}

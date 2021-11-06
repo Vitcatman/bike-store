@@ -1,0 +1,17 @@
+.theme-toggler__checkbox {
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  right: 190px;
+}
+
+.theme-toggler__checkbox:checked + .theme-toggler__switch {
+  background: #545454;
+}
+
+.theme-toggler__checkbox:checked + .theme-toggler__switch::after {
+  transform: translatex(22px);
+  transition: transform 0.1s linear;
+}
+
+

@@ -4,27 +4,32 @@
   min-width: 284px;
   margin: 60px 0 0 0;
   padding: 0;
-  @include font(55px, $textBolder, 700, 60px);
+  color: $textBolder;
+  @include font(55px, 700, 60px);
+}
+
+.hero__title.theme-selector_black {
+  color: $secondaryTextBolder;
 }
 
 @media screen and (max-width:980px) {
   .hero__title {
     margin: 30px 0 0 0;
-    @include font(44px, $textBolder, 700, 48px);
+    @include font(44px, 700, 48px);
   }
 }
 
 @media screen and (max-width:820px) {
   .hero__title {
     margin: 20px 0 0 0;
-    @include font(40px, $textBolder, 700, 44px);
+    @include font(40px, 700, 44px);
   }
 }
 
 @media screen and (max-width:720px) {
   .hero__title {
     margin: 10px 0 0 0;
-    @include font(34px, $textBolder, 700, 34px);
+    @include font(34px, 700, 34px);
   }
 }
 
@@ -32,7 +37,7 @@
   .hero__title {
     max-width: 284px;
     margin: 40px 0 0 0;
-    @include font(32px, $textBolder, 400, 40px);
+    @include font(32px, 400, 40px);
     letter-spacing: -0.5px;;
   }
 }

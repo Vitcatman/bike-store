@@ -1,0 +1,11 @@
+
+@media screen and (max-width:630px) {
+  .header__burger_active:before {
+   transform:rotate(45deg);
+   top: 9.5px;
+  }
+  .header__burger_active:after {
+    transform:rotate(-45deg);
+    bottom: 9.5px;
+   }
+}

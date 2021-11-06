@@ -1,4 +1,6 @@
 .bike-models__swiper {
   width: 100%;
-  display: none;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
 }

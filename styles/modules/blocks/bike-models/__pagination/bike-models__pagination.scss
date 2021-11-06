@@ -4,3 +4,17 @@
   margin-right: auto;
   text-align: center;
 }
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: $textBolder;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  background-color: $textLighter;
+}
+
+.bike-models__pagination.theme-selector_black .swiper-pagination-bullet  {
+  background-color: $secondaryTextBolder;
+}
