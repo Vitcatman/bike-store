@@ -1,22 +1,22 @@
 .ride__quote-author {
   margin: 0;
-  @include font (20px, 500, 32px);
-  color: $textBolder
+  @include font(20px, 500, 32px);
+  color: $textBolder;
 }
 
 .ride__quote-author.theme-selector_black {
   color: $secondaryTextBolder;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .ride__quote-author {
-    @include font (14px, 500, 26px);
+    @include font(14px, 500, 26px);
   }
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width: 630px) {
   .ride__quote-author {
     margin-top: 40px;
-    @include font (14px, 500, 22px);
+    @include font(14px, 500, 22px);
   }
 }

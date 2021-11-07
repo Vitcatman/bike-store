@@ -1,42 +1,42 @@
 .training__picture {
   grid-area: picture;
-background-image: url(../images/road.jpg);
+  background-image: url(../images/road.jpg);
   width: 580px;
   height: 460px;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
-@media screen and (max-width:1220px) {
+@media screen and (max-width: 1220px) {
   .training__picture {
     width: 493px;
     height: 391px;
   }
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width: 1050px) {
   .training__picture {
     width: 430px;
     height: 350px;
   }
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .training__picture {
     width: 374px;
     height: 297px;
   }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .training__picture {
     width: 318px;
     height: 252px;
   }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .training__picture {
     width: 284px;
     height: 225px;

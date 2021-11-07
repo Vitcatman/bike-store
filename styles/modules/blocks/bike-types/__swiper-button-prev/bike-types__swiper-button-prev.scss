@@ -8,21 +8,20 @@
   left: auto;
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width: 630px) {
   .swiper-button-prev {
     right: 160px;
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .swiper-button-prev {
     right: 110px;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .swiper-button-prev {
     right: 35px;
   }
 }
-

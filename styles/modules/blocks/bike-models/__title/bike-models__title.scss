@@ -9,7 +9,7 @@
   color: $secondaryTextBolder;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .bike-models__title {
     @include font(32px, 700, 40px);
   }

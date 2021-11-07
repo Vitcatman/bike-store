@@ -14,10 +14,11 @@
   background-color: #333333;
 }
 
-.body_locked {
-  overflow: hidden;
+@media screen and (max-width: 630px) {
+  .body_locked {
+    overflow: hidden;
+  }
 }
-
 .body {
   background-color: #f4f4f4;
 }
@@ -134,7 +135,8 @@
     bottom: 0;
   }
 
-  .header__burger.theme-selector_black:before, .header__burger.theme-selector_black:after {
+  .header__burger.theme-selector_black:before,
+.header__burger.theme-selector_black:after {
     background-color: white;
   }
 }
@@ -172,10 +174,11 @@
   transform: scale(0);
 }
 
-.header__menu_active {
-  top: 50px;
+@media screen and (max-width: 630px) {
+  .header__menu_active {
+    top: 50px;
+  }
 }
-
 .header__theme-switcher {
   display: none;
 }
@@ -260,7 +263,7 @@
   vertical-align: middle;
   width: 132px;
   height: 2px;
-  background-color: #D7D4D4;
+  background-color: #d7d4d4;
   margin-left: 30px;
 }
 
@@ -841,7 +844,7 @@
     left: 0;
     width: 284px;
     height: 0px;
-    border: 1px solid #E3E3E3;
+    border: 1px solid #e3e3e3;
     right: 0;
     margin: 40px auto 0;
     display: block;
@@ -1089,7 +1092,7 @@
     left: 0;
     width: 284px;
     height: 0px;
-    border: 1px solid #E3E3E3;
+    border: 1px solid #e3e3e3;
     right: 0;
     margin: -40px auto 0;
     display: block;
@@ -1402,6 +1405,10 @@
   color: #E5E5E5;
 }
 
+.bike-models__menu-link.theme-selector_black.bike-models__menu-link_active {
+  color: #FFFFFF;
+}
+
 @media screen and (max-width: 630px) {
   .bike-models__menu-link {
     font-size: 11px;
@@ -1455,7 +1462,7 @@
     left: 0;
     width: 284px;
     height: 0px;
-    border: 1px solid #E3E3E3;
+    border: 1px solid #e3e3e3;
     right: 0;
     margin: -40px auto 0;
     display: block;
@@ -1529,7 +1536,7 @@
   width: 95%;
   box-shadow: 0 0 220px rgba(0, 0, 0, 0.04);
   margin-top: 120px;
-  background: #F4F4F4;
+  background: #f4f4f4;
   border-radius: 20px;
 }
 
@@ -1615,7 +1622,7 @@
   justify-content: left;
   align-items: center;
   box-sizing: border-box;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   border-radius: 2px;
   padding-left: 12px;
 }
@@ -1723,7 +1730,7 @@
   line-height: 20px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
-  color: #CFCFCF;
+  color: #cfcfcf;
 }
 
 .footer__copyright.theme-selector_black {
@@ -1824,7 +1831,7 @@
   border-radius: 1em;
   position: relative;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   transition: all 0.1s linear;
   display: inline-block;
   vertical-align: middle;
@@ -1838,7 +1845,7 @@
   margin-top: 2px;
   margin-left: 1px;
   border-radius: 1em;
-  background: #24B47E;
+  background: #24b47e;
   box-shadow: 2px 5px 10px -2px rgba(0, 0, 0, 0.2);
   transition: all 0.1s linear;
 }

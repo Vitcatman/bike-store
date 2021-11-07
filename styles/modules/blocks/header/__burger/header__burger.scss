@@ -9,12 +9,12 @@
     width: 30px;
     height: 22px;
     margin: 0 18px 0 0;
-    z-index: 51
+    z-index: 51;
   }
 
   .header__burger:before,
   .header__burger:after {
-    content: '';
+    content: "";
     background-color: black;
     position: absolute;
     width: 100%;
@@ -30,8 +30,8 @@
     bottom: 0;
   }
 
-  .header__burger.theme-selector_black:before,.header__burger.theme-selector_black:after {
+  .header__burger.theme-selector_black:before,
+  .header__burger.theme-selector_black:after {
     background-color: white;
   }
-
 }

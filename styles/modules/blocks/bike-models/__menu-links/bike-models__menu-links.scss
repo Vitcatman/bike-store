@@ -1,13 +1,12 @@
 .bike-models__menu-links {
   @include flex(row, space-between);
-  align-items:center;
+  align-items: center;
   list-style-type: none;
   padding: 0;
   margin: 10px 0 0 10px;
 }
 
-
-@media screen and (max-width:630px) {
+@media screen and (max-width: 630px) {
   .bike-models__menu-links {
     @include flex(column, space-between);
     width: 140px;

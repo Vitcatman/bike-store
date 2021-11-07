@@ -4,40 +4,38 @@
   position: relative;
 }
 
-@media screen and (max-width:1370px) {
+@media screen and (max-width: 1370px) {
   .ride__picture {
     max-width: 585px;
     max-height: 414px;
   }
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width: 1300px) {
   .ride__picture {
     max-width: 497px;
     max-height: 352px;
   }
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width: 1020px) {
   .ride__picture {
     max-width: 422px;
     max-height: 300px;
   }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .ride__picture {
     max-width: 338px;
     max-height: 240px;
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .ride__picture {
     max-width: 284px;
     max-height: 204px;
     margin-top: 60px;
   }
 }
-
-

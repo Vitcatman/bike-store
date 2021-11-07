@@ -1,8 +1,8 @@
 .bike-models__slide {
-  @include flex (column, space-between);
+  @include flex(column, space-between);
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width: 630px) {
   .bike-models__slide {
     @include flex(column, space-between);
     align-items: center;

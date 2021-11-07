@@ -1,6 +1,6 @@
 .bike-models__menu-link {
   text-decoration: none;
-  @include font (18px, 400, 28px);
+  @include font(18px, 400, 28px);
   color: $textLighter;
   margin-left: 40px;
   opacity: 0.7;
@@ -16,9 +16,13 @@
   color: $secondaryTextLighter;
 }
 
-@media screen and (max-width:630px) {
+.bike-models__menu-link.theme-selector_black.bike-models__menu-link_active {
+  color: $secondaryTextBolder;
+}
+
+@media screen and (max-width: 630px) {
   .bike-models__menu-link {
-    @include font (11px, 600, 14px);
+    @include font(11px, 600, 14px);
     margin-left: 0;
   }
 }

@@ -1,5 +1,5 @@
 .bike-models__name {
-  @include font (18px, 600, 22px);
+  @include font(18px, 600, 22px);
   color: $textBolder;
   margin-top: 20px;
 }
@@ -8,7 +8,7 @@
   color: $secondaryTextBolder;
 }
 
-@media screen and (max-width:630px) {
+@media screen and (max-width: 630px) {
   .bike-models__name {
     @include font(14px, 600, 18px);
     margin: -20px 0 16px;
