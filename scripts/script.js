@@ -21,10 +21,10 @@ const modelsSwiper = new Swiper(".bike-models__swiper", {
   },
 });
 
+//Функционал tabs
 const tabs = document.querySelectorAll(".bike-models__menu-link");
 const tabContent = document.querySelectorAll(".bike-models__swiper");
 
-//Функционал tabs
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     const target = document.querySelector(tab.dataset.tabTarget);
