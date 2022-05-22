@@ -1,0 +1,21 @@
+.bike-models__name {
+  @include font(18px, 600, 22px);
+  color: $textBolder;
+  margin-top: 20px;
+}
+
+.bike-models__name.theme-selector_black {
+  color: $secondaryTextBolder;
+}
+
+@media screen and (max-width: 630px) {
+  .bike-models__name {
+    @include font(14px, 600, 18px);
+    margin: -20px 0 16px;
+    text-align: center;
+    z-index: 300;
+  }
+  .bike-models__name.theme-selector_black {
+    color: $textBolder;
+  }
+}

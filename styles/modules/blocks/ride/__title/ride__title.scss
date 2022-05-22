@@ -1,0 +1,37 @@
+.ride__title {
+  @include font(34px, 600, 44px);
+  color: $textBolder;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.ride__title.theme-selector_black {
+  color: $secondaryTextBolder;
+}
+
+@media screen and (max-width: 1170px) {
+  .ride__title {
+    @include font(26px, 500, 36px);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .ride__title {
+    @include font(24px, 500, 34px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ride__title {
+    @include font(18px, 500, 28px);
+    max-width: 284px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .ride__title {
+    margin-top: 40px;
+    @include font(23px, 600, 29px);
+    max-width: 284px;
+  }
+}

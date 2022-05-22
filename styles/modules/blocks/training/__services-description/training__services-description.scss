@@ -1,0 +1,30 @@
+.training__services-description {
+  max-width: 460px;
+  @include font(18px, 400, 28px);
+  color: $textLighter;
+  grid-area: services;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.training__services-description.theme-selector_black {
+  color: $secondaryTextLighter;
+}
+
+@media screen and (max-width: 945px) {
+  .training__services-description {
+    @include font(14px, 400, 22px);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .training__services-description {
+    @include font(12px, 400, 18px);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .training__services-description {
+    max-width: 284px;
+  }
+}

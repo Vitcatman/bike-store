@@ -1,0 +1,19 @@
+.bike-types__image {
+  width: 49%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .bike-types__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .bike-types__image {
+    width: 284px;
+    height: 175px;
+  }
+}

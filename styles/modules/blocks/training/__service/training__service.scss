@@ -1,0 +1,21 @@
+.training__service {
+  @include font(18px, 600, 28px);
+  color: $textBolder;
+  margin-right: 30px;
+  text-decoration: none;
+  transition: opacity 1s ease;
+}
+
+.training__service:hover {
+  opacity: 0.6;
+}
+
+.training__service.theme-selector_black {
+  color: $secondaryTextBolder;
+}
+
+@media screen and (max-width: 915px) {
+  .training__service {
+    @include font(14px, 600, 22px);
+  }
+}
